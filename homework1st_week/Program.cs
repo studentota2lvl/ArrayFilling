@@ -165,7 +165,7 @@ namespace homework1st_week
 
             for (int y = outArr.GetLength(1)-1; y >= 0; y--)
             {
-                if (y % 2 == 0)
+                if (y % 2 != 0)
                 {
                     for (int i = outArr.GetLength(0) - 1; i >= 0; i--)
                     {
